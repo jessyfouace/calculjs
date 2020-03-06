@@ -29,7 +29,7 @@ include("template/header.php"); ?>
                         </td>
                     </tr>
                 </table>
-                <input type="text" name="" id="resultPlayer" onkeyup="showResult(1)" autofocus class="m-0 col-12 text-right size50 inputStyle p-0 pt-2 pb-2" placeholder="?">
+                <input type="tel" name="" id="resultPlayer" onkeyup="showResult(1)" autofocus class="m-0 col-12 text-right size50 inputStyle p-0 pt-2 pb-2" placeholder="?">
             </div>
         <?php
         } else { ?>
@@ -38,7 +38,7 @@ include("template/header.php"); ?>
                 <p id="signe2" class="size50 my-auto"></p>
                 <p id="botNumber2" class="size50 my-auto"></p>
                 <p class="size50 my-auto">=</p>
-                <input type="text" name="" id="resultPlayer2" onkeyup="showResult(1)" autofocus class="m-0 size50 inputStyle p-0" style="max-width: 200px;" placeholder="?">
+                <input type="tel" name="" id="resultPlayer2" onkeyup="showResult(1)" autofocus class="m-0 size50 inputStyle p-0" style="max-width: 200px;" placeholder="?">
             </div>
         <?php } ?>
     </div>

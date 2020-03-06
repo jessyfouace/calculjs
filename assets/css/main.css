@@ -172,6 +172,71 @@ body {
     text-decoration: none;
 }
 
+img[src='https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png'] {
+    display: none !important;
+}
+
+/* Dropdown Button */
+.dropbtn, .dropbtn2 {
+  color: white;
+  /* padding: 16px;
+  font-size: 16px; */
+  border: none;
+  background-color: inherit !important;
+}
+
+.dropbtn2:hover{
+    color: white !important;
+    text-decoration-color: #00B76A !important;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content-addition, .dropdown-content-soustraction, .dropdown-content-multiplication, .dropdown-content-division, .dropdown-content-full {
+    background-color: #A3A3A3;
+    display: none;
+}
+
+.dropdownaddition:hover .dropdown-content-addition {display: block;}
+
+.dropdownsoustraction:hover .dropdown-content-soustraction {display: block;}
+
+.dropdownmultiplication:hover .dropdown-content-multiplication {display: block;}
+
+.dropdowndivision:hover .dropdown-content-division {display: block;}
+
+.dropdownfull:hover .dropdown-content-full {display: block;}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 /* ==========================================================================
    Helper classes
